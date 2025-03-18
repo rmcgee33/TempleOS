@@ -1,86 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Washington Fisherman's Guide</title>
+    <title>Washington Fishing Guide</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; background-color: #f0f8ff; padding: 20px; }
-        header { background-color: #004d40; color: #fff; padding: 15px; text-align: center; }
-        nav a { margin: 0 15px; color: #fff; text-decoration: none; font-weight: bold; }
-        .content { margin-top: 20px; }
-        img { width: 100%; height: auto; margin-top: 10px; }
-        footer { text-align: center; margin-top: 30px; padding: 10px; background-color: #004d40; color: #fff; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; background-color: #f0f8ff; }
+        h1, h2 { color: #003366; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .nav { background-color: #004d99; color: #fff; padding: 10px; text-align: center; }
+        .nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .section { background-color: #ffffff; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Washington Fisherman's Guide</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#locations">Fishing Locations</a>
-            <a href="#gear">Tactics & Gear</a>
-            <a href="#permits">Permits & Regulations</a>
-            <a href="#contact">Contact Us</a>
-        </nav>
-    </header>
+    <div class="container">
+        <div class="nav">
+            <a href="#locations">Locations</a>
+            <a href="#gear">Gear & Tactics</a>
+            <a href="#info">Licenses & Info</a>
+        </div>
 
-    <div class="content" id="home">
-        <h2>Welcome to the Washington Fisherman's Guide</h2>
-        <p>Your ultimate resource for discovering the best fishing spots, strategies, and tips for Washington's diverse waters.</p>
+        <div id="locations" class="section">
+            <h1>Prime Fishing Locations in Washington</h1>
+            <h2>Eastern Washington</h2>
+            <p><strong>Potholes Reservoir:</strong> Known for walleye, bass, and perch. The shallow flats and submerged dunes create perfect habitats for these species.</p>
+            <p><strong>Banks Lake:</strong> Offers abundant bass, walleye, and rainbow trout fishing. Prime spots include the rocky points and submerged structure.</p>
+            <p><strong>Columbia River:</strong> This vast river hosts salmon, sturgeon, and steelhead. Focus on tailouts below dams for excellent results.</p>
+
+            <h2>Puget Sound</h2>
+            <p><strong>North Sound:</strong> Ideal for targeting salmon in summer and fall. Popular areas include Everett and the San Juan Islands.</p>
+            <p><strong>South Sound:</strong> Known for resident coho and cutthroat trout. Try Point Defiance or Gig Harbor.</p>
+
+            <h2>Straits of Juan de Fuca</h2>
+            <p>Offers prime halibut and lingcod fishing, especially near Sekiu and Neah Bay.</p>
+
+            <h2>Coastal Waters</h2>
+            <p><strong>Westport:</strong> A major salmon and bottomfish hotspot. The jetties and offshore banks provide excellent action.</p>
+        </div>
+
+        <div id="gear" class="section">
+            <h1>Gear & Tactics</h1>
+            <p><strong>Potholes Reservoir:</strong> Jigs and bottom bouncers work best for walleye. Use crankbaits or soft plastics for bass.</p>
+            <p><strong>Banks Lake:</strong> Deep-diving crankbaits and live bait rigs excel in deeper water structures.</p>
+            <p><strong>Puget Sound:</strong> Mooching with herring or trolling with flashers and spoons is effective for salmon.</p>
+            <p><strong>Neah Bay / Straits:</strong> Heavy jigs and swimbaits are best for targeting lingcod and rockfish in rocky terrain.</p>
+            <p><strong>Westport:</strong> Bottomfish anglers should use leadhead jigs or bait rigs tipped with squid for best results.</p>
+        </div>
+
+        <div id="info" class="section">
+            <h1>Licenses & Fishing Information</h1>
+            <p>Washington fishing licenses are required for anyone 15 or older. They can be purchased online via the Washington Department of Fish and Wildlife (WDFW) website.</p>
+            <p><strong>Best Fishing Seasons:</strong> Salmon peaks in summer and fall, while trout and bass fishing shine in spring and early summer.</p>
+            <p>For up-to-date regulations, visit the <a href="https://wdfw.wa.gov/">WDFW Website</a> or contact them at:</p>
+            <ul>
+                <li><strong>Email:</strong> info@wdfw.wa.gov</li>
+                <li><strong>Phone:</strong> (360) 902-2200</li>
+            </ul>
+        </div>
     </div>
-
-    <div class="content" id="locations">
-        <h2>Top Fishing Locations in Washington</h2>
-        <ul>
-            <li><b>Puget Sound:</b> Popular for salmon, lingcod, and crab fishing.</li>
-            <li><b>North Sound & South Sound:</b> Known for rockfish, halibut, and shellfish.</li>
-            <li><b>Straits of Juan de Fuca:</b> A key spot for salmon and halibut.</li>
-            <li><b>San Juan Islands:</b> Prime location for salmon runs and bottom fish.</li>
-            <li><b>Eastern Washington:</b> Home to walleye, trout, and bass in lakes and rivers.</li>
-            <li><b>Columbia River:</b> Excellent for steelhead, salmon, and sturgeon.</li>
-            <li><b>Westport:</b> A popular launch point for deep-sea fishing.</li>
-        </ul>
-        <img src="images/washington_map.jpg" alt="Washington Fishing Map">
-    </div>
-
-    <div class="content" id="gear">
-        <h2>Fishing Tactics & Recommended Gear</h2>
-        <p>To improve your success rate, employ these tactics:</p>
-        <ul>
-            <li><b>Puget Sound:</b> Use downriggers for deep trolling during summer salmon runs.</li>
-            <li><b>Straits & San Juan Islands:</b> Try jigging near rocky outcrops for bottom fish.</li>
-            <li><b>Columbia River:</b> Plunking or trolling with wobbling lures works well for salmon.</li>
-            <li><b>Eastern Washington:</b> Still fishing with PowerBait is ideal for trout.</li>
-        </ul>
-        <p>Recommended gear includes:</p>
-        <ul>
-            <li>Waterproof clothing and non-slip boots.</li>
-            <li>Medium-heavy rods with braided line for larger fish.</li>
-            <li>High-quality bait and lures suited for Washington’s various regions.</li>
-        </ul>
-    </div>
-
-    <div class="content" id="permits">
-        <h2>Permits & Regulations</h2>
-        <p>Fishing in Washington requires proper permits. Common types include:</p>
-        <ul>
-            <li><b>Saltwater License:</b> Required for all ocean and coastal waters.</li>
-            <li><b>Freshwater License:</b> Necessary for inland lakes and rivers.</li>
-            <li><b>Shellfish & Seaweed Permit:</b> For crab, clam, oyster, and more.</li>
-            <li>Permits can be purchased at local sporting goods stores or online.</li>
-        </ul>
-        <img src="images/permit_info.jpg" alt="Washington Fishing Permit">
-    </div>
-
-    <div class="content" id="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions or want to book a guided fishing trip? Reach out to us at:</p>
-        <p>Email: info@washfishingguide.com</p>
-        <p>Phone: (555) 123-4567</p>
-    </div>
-
-    <footer>
-        <p>&copy; 2025 Washington Fisherman's Guide. All Rights Reserved.</p>
-    </footer>
 </body>
 </html>
+
 
