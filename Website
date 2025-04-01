@@ -1,179 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fishing in Washington</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #004f7c;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        h1 {
-            margin: 0;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 15px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        section {
-            background-color: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            border-bottom: 2px solid #004f7c;
-            padding-bottom: 10px;
-            margin-bottom: 15px;
-        }
-
-        h3 {
-            margin-top: 20px;
-            color: #004f7c;
-        }
-
-        footer {
-            background-color: #004f7c;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quirky Store</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background-color: #333; color: white; padding: 1em; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; }
+    .product { padding: 2em; border-bottom: 1px solid #ccc; }
+    .product h2 { margin-top: 0; }
+    .buy-button { display: inline-block; margin-top: 10px; padding: 0.5em 1em; background: #28a745; color: white; text-decoration: none; border-radius: 5px; }
+    .container { max-width: 800px; margin: auto; padding: 1em; }
+  </style>
 </head>
 <body>
-
-<header>
-    <h1>Fishing in Washington</h1>
+  <header>
+    <h1>Quirky Store</h1>
     <nav>
-        <ul>
-            <li><a href="#locations">Locations & Seasons</a></li>
-            <li><a href="#gear">Gear & Tactics</a></li>
-            <li><a href="#licenses">Licenses & Resources</a></li>
-        </ul>
+      <a href="index.html">Home</a>
+      <a href="hearing-aids.html">Hearing Aids</a>
+      <a href="left-handed-pens.html">Left-Handed Pens</a>
+      <a href="motorcycle-doors.html">Motorcycle Doors</a>
     </nav>
-</header>
+  </header>
 
-<main>
-    <section id="locations">
-        <h2>Prime Fishing Locations</h2>
+  <main class="container">
+    <h2>Welcome to Quirky Store</h2>
+    <p>Your one-stop shop for products you never knew you needed!</p>
+    <ul>
+      <li><a href="hearing-aids.html">Hearing Aids for the Near Sighted</a></li>
+      <li><a href="left-handed-pens.html">Left Handed Pens</a></li>
+      <li><a href="motorcycle-doors.html">Motorcycle Doors</a></li>
+    </ul>
+  </main>
 
-        <h3>Eastern Washington</h3>
-        <ul>
-            <li><strong>Potholes Reservoir:</strong> Best for bass and walleye. Spring and fall are ideal seasons.</li>
-            <li><strong>Banks Lake:</strong> Known for walleye and smallmouth bass. Spring and early summer are prime times.</li>
-            <li><strong>Columbia River:</strong> Famous for Chinook salmon and sturgeon. Best from spring through fall.</li>
-        </ul>
+  <footer>
+    <p>&copy; 2025 Quirky Store. All rights reserved.</p>
+  </footer>
+</body>
+</html>
 
-        <h3>Puget Sound</h3>
-        <ul>
-            <li><strong>North Sound:</strong> Best for Chinook and Coho salmon. Peak season is late summer to fall.</li>
-            <li><strong>San Juan Islands:</strong> Known for large King salmon. Best during summer months.</li>
-            <li><strong>South Sound:</strong> Great for Coho salmon, best fished in late summer and fall.</li>
-        </ul>
+<!-- hearing-aids.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hearing Aids for the Near Sighted</title>
+</head>
+<body>
+  <header><h1>Hearing Aids for the Near Sighted</h1></header>
+  <div class="container">
+    <p>Finally, a hearing aid that compensates for your poor eyesight! Using sonic echolocation, these hearing aids help you "see" with your ears.</p>
+    <p><strong>Price:</strong> $299.99</p>
+    <a class="buy-button" href="purchase.html?product=hearing-aids">Buy Now</a>
+  </div>
+</body>
+</html>
 
-        <h3>Straits of Juan de Fuca</h3>
-        <ul>
-            <li><strong>Straits of Juan de Fuca:</strong> Salmon and halibut fishing is best in spring to early summer.</li>
-        </ul>
+<!-- left-handed-pens.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Left Handed Pens</title>
+</head>
+<body>
+  <header><h1>Left Handed Pens</h1></header>
+  <div class="container">
+    <p>Ergonomically designed for the 10% of the population who matter most. Ink that dries instantly, no smudging guaranteed!</p>
+    <p><strong>Price:</strong> $12.99 (pack of 3)</p>
+    <a class="buy-button" href="purchase.html?product=left-handed-pens">Buy Now</a>
+  </div>
+</body>
+</html>
 
-        <h3>Neah Bay</h3>
-        <ul>
-            <li><strong>Neah Bay:</strong> Known for salmon and halibut, peak fishing is during summer.</li>
-        </ul>
+<!-- motorcycle-doors.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Motorcycle Doors</title>
+</head>
+<body>
+  <header><h1>Motorcycle Doors</h1></header>
+  <div class="container">
+    <p>Add a layer of mystery (and confusion) to your motorcycle. These custom-fitted doors swing wide open, just like your sense of adventure.</p>
+    <p><strong>Price:</strong> $499.99</p>
+    <a class="buy-button" href="purchase.html?product=motorcycle-doors">Buy Now</a>
+  </div>
+</body>
+</html>
 
-        <h3>West Coast</h3>
-        <ul>
-            <li><strong>Westport:</strong> Excellent for salmon fishing in summer. Halibut is also popular.</li>
-        </ul>
-    </section>
-
-    <section id="gear">
-        <h2>Fishing Gear & Tactics</h2>
-
-        <h3>Eastern Washington</h3>
-        <ul>
-            <li><strong>Gear:</strong> Spinning or baitcasting reels, medium-heavy rods, and crankbaits or jigs for bass.</li>
-            <li><strong>Tactics:</strong> Cast near structure, such as submerged rocks and fallen trees, for bass.</li>
-        </ul>
-
-        <h3>Puget Sound</h3>
-        <ul>
-            <li><strong>Gear:</strong> Medium to heavy rods, trolling reels, downriggers for deep water fishing.</li>
-            <li><strong>Tactics:</strong> Trolling with herring or spoons for salmon, or drifting for bottom fish like lingcod.</li>
-        </ul>
-
-        <h3>Straits of Juan de Fuca</h3>
-        <ul>
-            <li><strong>Gear:</strong> Heavy rods for halibut, trolling reels for salmon.</li>
-            <li><strong>Tactics:</strong> Jigging for halibut, trolling for chinook and coho salmon.</li>
-        </ul>
-
-        <h3>West Coast</h3>
-        <ul>
-            <li><strong>Gear:</strong> Heavy rods and reels, wire line for deeper water fishing.</li>
-            <li><strong>Tactics:</strong> Trolling along the coast, using bait or lures for salmon.</li>
-        </ul>
-    </section>
-
-    <section id="licenses">
-        <h2>Fishing Licenses & Resources</h2>
-
-        <h3>Fishing Licenses</h3>
-        <p>Fishing licenses are required for all anglers aged 15 and older. These can be purchased online, at local retailers, or at the WDFW office.</p>
-        <ul>
-            <li><strong>Annual License:</strong> Covers fishing for the entire year.</li>
-            <li><strong>One-Day License:</strong> Ideal for occasional anglers.</li>
-        </ul>
-
-        <h3>Washington Department of Fish and Wildlife (WDFW)</h3>
-        <p>The WDFW manages fishing regulations and resources in Washington state.</p>
-        <ul>
-            <li><strong>Website:</strong> <a href="https://wdfw.wa.gov" target="_blank">wdfw.wa.gov</a></li>
-            <li><strong>Contact Information:</strong></li>
-            <ul>
-                <li><strong>Phone:</strong> 360-902-2200</li>
-                <li><strong>Email:</strong> <a href="mailto:wdfw@wdfw.wa.gov">wdfw@wdfw.wa.gov</a></li>
-            </ul>
-        </ul>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2025 Fishing in Washington</p>
-</footer>
-
+<!-- purchase.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Purchase</title>
+</head>
+<body>
+  <header><h1>Complete Your Purchase</h1></header>
+  <div class="container">
+    <p>Thank you for choosing a Quirky product! Our checkout system is currently a figment of your imagination, but rest assured: we appreciate your sense of humor and curiosity.</p>
+    <a href="index.html">Back to Home</a>
+  </div>
 </body>
 </html>
